@@ -1,5 +1,10 @@
-# OFB_2023
+# Ottawa Food Bank 
+## Research Questions
+ 1. What is the relationship between food security status and health/demographics/needs in our sample?
+ 2. Considering the stated needs of people accessing food programs, do agencies / the network have the capacity to meet those needs?
 In the repo you will find two password protected Zip files.
+
+## Data Details
 These zip files contain a questionar (.docx) and its coresponding responses (.csv 65001: Unicode (UTF-8)). 
 
 The two surveys are called "Hunger Count" and "Neighbour Survey".
