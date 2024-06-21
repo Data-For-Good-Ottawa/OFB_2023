@@ -72,10 +72,18 @@ def get_data_as_numpy_array(file_path: str):
         if not os.path.isfile(file_path):
             raise FileNotFoundError(f"Error: '{file_path}' is not a valid file path.")
 
-        # Example assuming data is space-delimited
-        data = np.loadtxt(file_path)
-        return data
+        with open(file_path, 'r', encoding='utf-8') as file:
+            # Read all lines from the file
+            lines = file.readlines()
 
+            # Extract headers and data
+            headers = lines[0].strip().split(',')
+            data_lines = [line.strip().split(',') for line in lines[1:]]
+
+            # Convert data_lines to a numpy array
+            numpy_array = np.array(data_lines, dtype=object)  # Assuming data is numeric
+
+        return numpy_array
     except Exception as e:
         print_error(f"An error occurred while loading the data: {e}")
         return np.array([])
@@ -99,7 +107,7 @@ def get_csv_reader(file_path: str):
             raise FileNotFoundError(f"'{file_path}' is not a valid file path.")
 
         # Open the CSV file and return the CSV reader object
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding='utf-8') as file:
             reader = csv.reader(file)
             return reader
 
