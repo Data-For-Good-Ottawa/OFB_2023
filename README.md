@@ -1,8 +1,22 @@
-# Ottawa Food Bank
+# Ottawa Food Bank - Quick Start Python 
 
 ## Research Questions
 1. What is the relationship between food security status and health/demographics/needs in our sample?
 2. Considering the stated needs of people accessing food programs, do agencies/the network have the capacity to meet those needs?
+
+## Branch Details
+You can use this branch to help you get started if you prefer working in Python.
+
+It contains very basic and simple methods to help you load data.
+
+All you need to do is extract the both zip files into the `Data` folder.
+
+- ### Lib
+  - #### data_loader
+    - get_data_as_pandas_data_frame(file_path: str)
+    - get_data_as_numpy_array(file_path: str)
+    - get_csv_reader(file_path: str)
+
 
 ## Data Details
 In this repository, you will find two password-protected ZIP files containing survey data:
