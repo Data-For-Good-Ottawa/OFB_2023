@@ -26,10 +26,67 @@ In this repository, you will find two password-protected ZIP files containing su
   - Number of Fields: 49
   - Files: "Hunger Count.docx" (questionnaire), "Hunger Count.csv" (responses, UTF-8 encoded)
 
-- **Neighbour Survey**
+- **Neighbour Survey**    
   - Number of Records: 4086
   - Number of Fields: 136
   - Files: "Neighbour Survey.docx" (questionnaire), "Neighbour Survey.csv" (responses, UTF-8 encoded)
+  -  Description:  Contains information on the needs of people accessing food programs, including food security experiences, financial status, barriers to accessing food programs, non-food services, special food needs, as well as demographics, health conditions, visitor traffic, and comments and feedback.  
+    
+      
+      
+      ### Fields Description
+      
+      #### Needs of People Accessing Food Programs
+      
+      | Questions                                    | Description                                                      |
+      |----------------------------------------------|------------------------------------------------------------------|
+      | `q002` through `q008`                        | Food Security Experience and Financial Status-Income              |
+      | `q014a` through `q014h`                      | Food Programs Access Barriers                                    |
+      | `q017a` through `q018`                       | Food Programs ‘Non-Food’ Services                                |
+      | `q023a` through `q024i`                      | Food Programs Special/Unique Food Needs                          |
+      
+      #### Demographics
+      
+      | Questions                                    | Description                                                      |
+      |----------------------------------------------|------------------------------------------------------------------|
+      | `q025`                                       | Age                                                              |
+      | `q026` through `q032`                        | Personal Household Questions                                     |
+      | `q033a` through `q034`                       | Education Level                                                  |
+      | `q035a` through `q035b`                      | Status in Canada                                                 |
+      | `q036a` through `q036b`                      | Gender                                                           |
+      | `q037`                                       | Time in Canada                                                   |
+      | `q038a` through `q038k`                      | Ethnic Background                                                |
+      | `q040a` through `q040b`                      | Housing Situation                                                |
+      | `q041a` through `q041u`                      | Current Employment                                               |
+      
+      #### Health
+      
+      | Questions                                    | Description                                                      |
+      |----------------------------------------------|------------------------------------------------------------------|
+      | `q021a` through `q021f`                      | Health Conditions                                                |
+      | `q039a` through `q039i`                      | Additional Health Conditions                                     |
+      | `q019` through `q020`                        | Exercise Habits                                                  |
+      | `q022`                                       | Pregnancy                                                        |
+      
+      #### Visitor Traffic
+      
+      | Questions                                    | Description                                                      |
+      |----------------------------------------------|------------------------------------------------------------------|
+      | `q009` through `q013`                        | Food Bank / Food Programs Visits                                 |
+      | `q015` through `q016f`                       | Duration and Mode of Transportation to Food Programs             |
+      
+      #### Comments
+      
+      | Questions                                    | Description                                                      |
+      |----------------------------------------------|------------------------------------------------------------------|
+      | `q042`                                       | Comments and Feedback                                            |
+      
+
+
+
+
+
+
   
 ## Purpose
 This repository aims to facilitate research and analysis related to food security, health demographics, and community needs as observed through surveys conducted by the Ottawa Food Bank. Researchers, analysts, and volunteers interested in understanding and addressing food insecurity issues are encouraged to explore and contribute to this repository.
