@@ -180,6 +180,8 @@ def create_stacked_bar_chart(df, id_column='id', output_file='food_security_by_i
     plt.close(fig)
     
     print(f"Chart saved as {output_file}")
+
+    pivot_percentage.to_csv('food_security_by_income_source_data.csv')
     
     return pivot_percentage
 
@@ -249,5 +251,7 @@ def analyze_income_types_per_person(df, id_column='id'):
 
     plt.tight_layout()
     plt.savefig('income_source_counts.png')
+
+    income_analysis.to_csv('income_source_counts_data.csv')
 
     return income_analysis
